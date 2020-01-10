@@ -1,0 +1,13 @@
+Index: src/drivers/scsi/qedf/qedf_version.h
+===================================================================
+--- src.orig/drivers/scsi/qedf/qedf_version.h	2017-12-05 18:27:04.639055560 +0100
++++ src/drivers/scsi/qedf/qedf_version.h	2017-12-05 18:27:48.415460637 +0100
+@@ -7,7 +7,7 @@
+  *  this source tree.
+  */
+ 
+-#define QEDF_VERSION		"8.10.7.0"
++#define QEDF_VERSION		"8.10.7.0_dup7.4"
+ #define QEDF_DRIVER_MAJOR_VER		8
+ #define QEDF_DRIVER_MINOR_VER		10
+ #define QEDF_DRIVER_REV_VER		7
