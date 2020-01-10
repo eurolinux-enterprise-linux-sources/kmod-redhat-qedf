@@ -1,0 +1,12 @@
+Index: src/drivers/scsi/qedf/Makefile
+===================================================================
+--- src.orig/drivers/scsi/qedf/Makefile	2017-05-31 20:20:39.289706643 +0200
++++ src/drivers/scsi/qedf/Makefile	2017-05-31 20:20:57.482504947 +0200
+@@ -1,5 +1,7 @@
+ CONFIG_QEDF := m
+ 
++KBUILD_EXTRA_SYMBOLS := /usr/share/kmod-redhat-qed/Module.symvers
++
+ obj-$(CONFIG_QEDF) := qedf.o
+ qedf-y = qedf_dbg.o qedf_main.o qedf_io.o qedf_fip.o \
+ 	 qedf_attr.o qedf_els.o drv_scsi_fw_funcs.o drv_fcoe_fw_funcs.o
